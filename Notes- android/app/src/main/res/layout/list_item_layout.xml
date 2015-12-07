@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingTop="@dimen/margin_small"
+        android:text="2014"
+        android:textColor="@color/text_gray_color"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen64"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/margin_mini"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_large"
+            android:text="teacher name"
+            android:textSize="@dimen/font_large" />
+        <RatingBar
+            android:id="@+id/rRatingReview"
+            style="@style/customRatingBarSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="3.5"
+            android:layout_gravity="center_vertical"
+            android:numStars="5"
+            android:paddingTop="0dp"
+            android:stepSize="0.5" />
+        <ImageView
+            android:id="@+id/download"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/margin_midsmall"
+            android:src="@drawable/ic_save_black_36dp" />
+
+        <ImageView
+            android:id="@+id/preview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/margin_midsmall"
+            android:src="@drawable/ic_keyboard_arrow_right_black_36dp" />
+        <!-- <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:id="@+id/secondary_text"
+             android:paddingRight="@dimen/margin_large"
+             android:minWidth="120dp"
+             android:gravity="center_vertical|right"
+             android:textSize="@dimen/font_large"/>-->
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@color/text_gray_color"/>
+
+</LinearLayout>

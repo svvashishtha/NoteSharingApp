@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableBottom="@drawable/rate_filler"
+        android:paddingTop="@dimen/margin_large"
+        android:text="@string/rate_prompt"
+        android:textSize="@dimen/font_xxlarge" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        style="@style/customRatingBarBig"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen48"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_small"
+        android:numStars="5" />
+
+    <Button
+        android:id="@+id/rate_post"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen48"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@color/colorAccent"
+        android:text="Rate"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_large" />
+</LinearLayout>

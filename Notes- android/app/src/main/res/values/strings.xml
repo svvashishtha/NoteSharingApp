@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="retry_string">Retry</string>
+    <string name="title_activity_subject_view">SubjectViewActivity</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_roll_no">Roll number</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_firstname">First name</string>
+    <string name="prompt_lastname">Last name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up_short">Sign up</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="prompt_teacher_name">Teacher\'s name</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="rate_prompt">Please Rate this Document</string>
+</resources>
